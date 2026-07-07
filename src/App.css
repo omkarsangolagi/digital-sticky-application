@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e8cce4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.light{
+    min-height: 100vh;
+    background-color: #e9dde8;
+}
+
+.dark{
+    min-height: 100vh;
+    background-color: #1f1f1f;
+    color: white;
+}

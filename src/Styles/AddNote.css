@@ -1,0 +1,53 @@
+.add-note{
+    width: 80%;
+    margin: 30px auto;
+    background-color: #efd9bb;
+    padding: 60px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.add-note input{
+    width: 50%;
+    padding: 22px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.add-note select{
+    width: 220px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.add-note textarea{
+    width: 50%;
+    height: 120px;
+    padding: 20px;
+    border-radius: 8px;
+    resize: none;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.add-note button{
+    padding: 12px 35px;
+    background-color: #d88f31;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.add-note button:hover{
+    background-color: orange;
+}
